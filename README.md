@@ -1,4 +1,4 @@
-# Notes from chapters 9 & 10
+# Notes from chapter 9
 ## Overview
 - **Main Focus**: The chapter discusses the lifecycle of objects in Java, including their creation, management, and destruction within the Java memory model.
 - **Key Concepts**: Constructors, garbage collection, memory management (heap and stack), and object lifecycle.
