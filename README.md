@@ -43,11 +43,11 @@
 - **Autoboxing**: Java automatically converts between primitive types (like int) and their corresponding object wrapper classes (like 'Integer').
 - **Utility Methods**: Wrapper classes include static methods useful for parsing strings to numbers, such as 'Integer.parseInt()'.
 ## Formatting Numbers and Strings
-- **Formatting Tools**: Methods like printf and String.format allow for formatted output, including setting precision for floating-point numbers and formatting dates.
+- **Formatting Tools**: Methods like 'printf' and 'String.format' allow for formatted output, including setting precision for floating-point numbers and formatting dates.
 - **Locale-Specific Formats**: These methods can also adapt the output to fit locale-specific conventions.
 ## Dates and Times
-- **Calendar Usage**: Java provides Calendar and other time-managing classes that offer methods to manipulate dates and times, including adding or subtracting time units.
-- **Formatting Dates**: Classes like SimpleDateFormat allow for formatting dates into readable strings.
+- **Calendar Usage**: Java provides 'Calendar' and other time-managing classes that offer methods to manipulate dates and times, including adding or subtracting time units.
+- **Formatting Dates**: Classes like 'SimpleDateFormat' allow for formatting dates into readable strings.
 ## Static Imports
 - **Simplifying Access**: Static imports can be used to access static methods and variables of a class directly without class qualification.
 ## Best Practices and Tips
