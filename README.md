@@ -22,9 +22,9 @@
 - The chapter humorously warns readers not to get too attached to objects due to their transient nature in memory, highlighting the importance of understanding object lifecycle for effective Java programming
 # Notes from chapter 10
 ## Overview
-- **Purpose**: Understanding the significance and usage of static methods, static variables, and Java's built-in Math class.
+- **Purpose**: Understanding the significance and usage of static methods, static variables, and Java's built-in 'Math' class.
 ## Math Methods and Static Usage
-- **Static Methods**: Java’s Math class provides static methods that you can use directly without creating an instance of the class. Examples include Math.sqrt() for square roots and Math.cos() for cosine.
+- **Static Methods**: Java’s 'Math' class provides static methods that you can use directly without creating an instance of the class. Examples include 'Math.sqrt()' for square roots and 'Math.cos()' for cosine.
 - **Global Accessibility**: Since these methods are static, they are accessible globally, using the class name.
 ## Static vs. Non-Static Methods
 - **Definition and Differences**: Static methods belong to the class rather than an instance, meaning they can be called without creating an object. They cannot access instance variables or methods directly.
@@ -36,8 +36,8 @@
 ## Static Initialization
 - **Purpose**: Static variables can be initialized in static blocks that execute when the class is loaded.
 - **Usage**: Useful for complex initialization that static declarations cannot handle.
-## Constants (static final)
-- **Immutable Constants**: Declaring a variable as static final makes it a constant, meaning it cannot be changed after initial assignment.
+## Constants ('static final')
+- **Immutable Constants**: Declaring a variable as 'static final' makes it a constant, meaning it cannot be changed after initial assignment.
 - **Usage Example**: Constants like 'Math.PI' are declared as 'static final'.
 ## Wrappers and Autoboxing
 - **Autoboxing**: Java automatically converts between primitive types (like int) and their corresponding object wrapper classes (like 'Integer').
