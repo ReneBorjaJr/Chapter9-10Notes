@@ -38,6 +38,10 @@
 - **Usage**: Useful for complex initialization that static declarations cannot handle.
 ## Constants ('static final')
 - **Immutable Constants**: Declaring a variable as 'static final' makes it a constant, meaning it cannot be changed after initial assignment.
+- Naming convention for constants(final static variables) is to make the name all uppercase.
+- Cannot be changed once it has been assigned.
+- A final method cannot be overridden
+- A final class cannot be extended
 - **Usage Example**: Constants like 'Math.PI' are declared as 'static final'.
 ## Wrappers and Autoboxing
 - **Autoboxing**: Java automatically converts between primitive types (like int) and their corresponding object wrapper classes (like 'Integer').
